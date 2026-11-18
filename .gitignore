@@ -155,3 +155,23 @@ vite.config.ts.timestamp-*
 .nx/cache
 .nx/workspace-data
 .nx/migrate-runs
+
+# Expo
+.expo/
+.expo-shared/
+web-build/
+expo-env.d.ts
+
+# Native build output (only appears if you run prebuild)
+android/
+ios/
+
+# Signing keys and certificates
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# OS files
+.DS_Store
